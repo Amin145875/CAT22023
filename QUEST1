@@ -1,0 +1,39 @@
+#include <iostream>
+
+int main()
+{
+    //declare variables here
+    int a,b,c;
+
+    std::cout << "Enter the first number: ";
+    std::cin >>a;
+
+    std::cout << "please Entersecond number: ";
+    std::cin >>b;
+
+    std::cout << " Please Enter third number: ";
+    std::cin >> c;
+    int smallest;
+    return 0;
+    switch (a<b&& a<c)
+    {
+    case true:
+        smallest =a;
+        break;
+    
+    default:
+    switch (b,a&&b<c)
+    {
+    case true:
+        /* code */
+        smallest=b;
+        break;
+    
+    default:
+    smallest=c;
+        break;
+    }
+}
+std::cout<<"the msallest"<<smallest<<std::endl;
+return 0;
+}
